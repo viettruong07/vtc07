@@ -1,5 +1,5 @@
 body{
-    font-family: "Arial, Tahoma";
+    font-family: Arial, Tahoma;
     font-size: 12px;
 }
 
@@ -18,15 +18,17 @@ body{
 
 #head{
 
-    height: 100px;
+    height: 200px;
+
+    color: #cc3333;
 
     background-color: #F5F5F5;
 
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
 
     margin-bottom:5px;
 
-    text-align: center;
+    background-image: url("https://scr.vn/wp-content/uploads/2020/07/H%C3%ACnh-si%C3%AAu-xe-Lamborghini-scaled.jpg");
 
 }
 
@@ -40,27 +42,29 @@ body{
 
     padding-right: 10px;
 
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
 
-    background-color: #F5F5F5;
+    background-color: #ce8fac;
 
     margin-bottom:5px;
 
     clear: both;
 
+    padding-bottom: 20px;
+
 }
 
 #left{
 
-    width: 150px;
+    width: 350px;
 
-    min-height: 400px;
+    min-height: 562px;
 
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
 
     float:left;
 
-    background-color: #004C00;
+    background-color: white;
 
     margin-bottom: 5px;
 
@@ -68,11 +72,13 @@ body{
 
 #content{
 
-    width: 600px;
+    width: 350px;
 
-    min-height: 400px;
+    background-color: white;
 
-    border: 1px solid #CDCDCD;
+    min-height: 562px;
+
+    border: 1px solid #cdcdcd;
 
     float:left;
 
@@ -86,11 +92,13 @@ body{
 
 #right{
 
-    width: 234px;
+    width: 282px;
 
-    min-height: 400px;
+    background-color: white;
 
-    border: 1px solid #CDCDCD;
+    min-height: 562px;
+
+    border: 1px solid #cdcdcd;
 
     float:right;
 
@@ -104,8 +112,28 @@ body{
 
     clear: both;
 
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
 
-    background-color: #F8F8FF;
+    background-color: #ae46ef;
+
+    color: #efefef;
 
 }
+h1{
+    text-align: center;
+    color: #ee3e80;
+}
+li{
+    display: inline;
+    margin: 0px 5px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover,
+a.on{
+    color: #efefef;
+
+}
+p{padding-left: 5px}
