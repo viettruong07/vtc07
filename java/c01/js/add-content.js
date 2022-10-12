@@ -4,11 +4,11 @@ var greeting;
 
 if (hourNow > 18){
     greeting = 'Good evening!';
-} eles if(hourNow > 12){
+} else if(hourNow > 12){
     greeting = 'Good afternoon!';
 } else if(hourNow > 0){
     greeting = 'Good morning!';
 } else {
     greeting = 'Welcome!';
 }
-document.wite('<h3>' + greeting + '</h3>');
+document.write('<h3>' + greeting + '</h3>');
