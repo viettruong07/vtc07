@@ -4,8 +4,8 @@ var message;
 username = 'Molly'
 message = 'See our upcoming range';
 
-var elName = document.getElementById('name');
+var elName = document.getElementById(elementld: 'name');
 elName.textContent = username;
 
-var elNote = document.getElementById('note');
+var elNote = document.getElementById(elementld: 'note');
 elNote.textContent = message;
