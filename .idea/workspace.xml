@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bf2ce9c-9af6-4578-bce9-6524976bc977" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java/c04/bt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c04/css/bt1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c04/js/bt1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/adding-and-removing-properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/basic-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/css/c03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/date-object-difference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/date-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/document-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/adding-and-removing-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/basic-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/date-object-difference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/date-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/document-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/math-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/multiple-objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/number-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/object-constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/object-literal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/object-literal2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/string-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/js/window-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/math-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/multiple-objects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/number-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/object-constructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/object-literal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/object-literal2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/string-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c05/window-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/css/c04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/comparison-operator-continued.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/comparison-operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/do-while-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/for-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/id-statement-with-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/if-else-statement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/if-statement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/logical-and.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/logical-or-logical-not.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/switch-statement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/c06/js/while-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/images/check-cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/images/travelworthy-backdrop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/images/travelworthy-logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c01/add-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/java/c01/add-content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c01/js/add-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c01/js/add-content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/arithmetic-operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/arithmetic-operator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/array-constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/array-constructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/array-literal.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/array-literal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/boolean-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/boolean-variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/numeric-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/numeric-variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/shorthand-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/shorthand-variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/string-operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/string-operator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/string-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/string-variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/string-with-quotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/string-with-quotes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/update-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/update-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c02/js/update-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/java/c02/js/update-variable.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FHlW28jTR6uu3moevcxgu9Vour" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/truongcongviet/Documents/GitHub/tomorrow/tomorrow/vtc07/lesson3/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson3/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/images" />
+      <recent name="$PROJECT_DIR$/lesson5/c01/js" />
+      <recent name="$PROJECT_DIR$/lesson5/c01/css" />
+      <recent name="$PROJECT_DIR$/lesson5/images" />
+      <recent name="$PROJECT_DIR$/lesson5" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bf2ce9c-9af6-4578-bce9-6524976bc977" name="Changes" comment="" />
+      <created>1664156918463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664156918463</updated>
+      <workItem from="1664156919579" duration="85000" />
+      <workItem from="1664157133550" duration="2000" />
+      <workItem from="1664157145095" duration="71000" />
+      <workItem from="1664158539096" duration="34000" />
+      <workItem from="1664164352295" duration="2407000" />
+      <workItem from="1664166771405" duration="5000" />
+      <workItem from="1664166780091" duration="10029000" />
+      <workItem from="1664251334210" duration="100000" />
+      <workItem from="1664326953406" duration="4605000" />
+      <workItem from="1664334852560" duration="18518000" />
+      <workItem from="1664405500080" duration="14000" />
+      <workItem from="1664451135467" duration="5158000" />
+      <workItem from="1664499578771" duration="585000" />
+      <workItem from="1664759331893" duration="7668000" />
+      <workItem from="1664769060572" duration="8815000" />
+      <workItem from="1664874590921" duration="4000" />
+      <workItem from="1665452027308" duration="8072000" />
+      <workItem from="1665462105455" duration="7325000" />
+      <workItem from="1665549877488" duration="856000" />
+      <workItem from="1665568024642" duration="2834000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

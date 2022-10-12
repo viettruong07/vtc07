@@ -8,11 +8,11 @@ var shipping = 0.5 * (13 + 1); //Shipping is 7
 var total = subtotal + shipping; //Total is 77
 
 //Write the results to the screen
-var slSub = document.getElementById(elementld: 'subtotal');
+var slSub = document.getElementById( 'subtotal');
 elSub.textContent = subtotal;
 
-var elShip = document.getElementById(elementld: 'shipping');
+var elShip = document.getElementById('shipping');
 elShip.textContent = shipping;
 
-var elTotal = document.getElementById(elementld: 'total');
+var elTotal = document.getElementById('total');
 elTotal.textContent = total;

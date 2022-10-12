@@ -1,5 +1,5 @@
 
-var colors = new Array(items:'white','black', 'custom');
+var colors = new Array('white','black', 'custom');
 
-var el = document.getElementById(elementld:'colors');
+var el = document.getElementById('colors');
 el.textContent = colors[0];
