@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+<body ng-app="myApp">
+<w3-custom-directive></w3-custom-directive>
+<div w3-custom-directive></div>
+<script>
+  var app = angular.module("myApp", []);
+  app.direction('w3CustomDirective', function (){
+    return{
+      retrict: 'A',
+      template: '<h3>Hello AngularJS!!</h3><p>I was made inside a Custom directive</p>'
+    };
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scope Demo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+<p>The rootScope's favourite color:</p>
+<h1>{{color}}</h1>
+<div ng-controller="myCtrl">
+  <p>The rootScope of the controller's favourite color:</p>
+    <h1>{{color}}</h1>
+</div>
+<p>The rootScope's favourite color is still:</p>
+<h1>{{color}}</h1>
+<script>
+    var app = angular.module('myApp',[]);
+    app.run(function ($rootScope){
+        $rootScope.color = 'blue';
+    });
+    app.controller('myCtrl', function ($scope){
+        $scope.color = "red";
+    });
+</script>
+<p>Notice that controller's color varible does not overwrite thes rootScope's color value.</p>
+</body>
+</html>

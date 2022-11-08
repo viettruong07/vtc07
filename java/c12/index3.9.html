@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body ng-app="spApp">
+<h1>ng-include directive</h1>
+  <div ng-controller="SPController" class="container">
+  <div ng-include="mainContent.html'"></div>
+  <div ng-include="'sideBar.html'"></div>
+  </div>
+  <div style="background-color: lightblue">
+    <h3>Lessons3</h3>
+    <p>Lessons.com was established in Nov 2018. Lessons was started with a motive to present programming codes and to help the developers all around the globe with different queries in different Programing Languages.</p>
+  </div>
+  <div class="sidebar" style="background-color: lightyellow">
+    <h3>Tutorials list(sidebar)</h3>
+    <li>
+      A<br>
+      B<br>
+      C<br>
+      D<br>
+    </li>
+  </div>
+</body>
+<script>
+  var MyApp = angular.module('spApp', []);
+  MyApp.controller("SPController", function($scope){
+    $scope.quantity = 1;
+    $scope.price = 9.99;
+  });
+</script>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo fpr ng-show and ng-hide</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body ng-app="">
+<p>Do you want to hide the list of cities?</p>
+<input type="checkbox" ng-model="myVar">
+<ul ng-hide="myVar">
+    <li>Nairobi</li>
+    <li>London</li>
+    <li>Paris</li>
+</ul>
+
+</body>
+</html>

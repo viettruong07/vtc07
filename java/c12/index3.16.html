@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+<h1>AngularJS Filter</h1>
+  <div ng-controller="myController">
+    Enter name to search in array: <input type="text" ng-model="searchCriteria"/><br/>
+    Result: {{myArr | filter: searchCriteria}}
+  </div>
+<script>
+  var myApp = angular.module('myApp', []);
+  myApp.controller("myController",function ($scope){
+    $scope.myArr = ['Steve', 'Bill', 'James', 'Rob', 'Ram', 'Moin']
+  });
+</script>
+</body>
+</html>
