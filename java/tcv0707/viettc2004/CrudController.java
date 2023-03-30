@@ -62,43 +62,49 @@ public class CrudController {
 
     }
     public void OnUpdate(ActionEvent actionEvent){
-
-        try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/crud", "root", "");
-            String sql1 = "update product set Name = ?,Description = ?, Price = ?, Qty = ? WHERE id = ? ";
-            PreparedStatement updates = conn.prepareStatement(sql1);
-            updates.setString(1,txtName.getText());
-            updates.setString(2,txtDescription.getText());
-            updates.setString(3,txtPrice.getText());
-            updates.setString(4,txtQty.getText());
-            updates.setString(5,txtID.getText());
-            int upd = updates.executeUpdate();
-            if (upd > 0){
-                label.setText("Update thành công");
-            }else {
-                label.setText("Update thất bại");
+        if( txtID.getText().isBlank() == false || txtName.getText().isBlank() == false || txtPrice.getText().isBlank() == false  || txtDescription.getText().isBlank() == false  || txtQty.getText().isBlank() == false ) {
+            try {
+                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/crud", "root", "");
+                String sql1 = "update product set Name = ?,Description = ?, Price = ?, Qty = ? WHERE id = ? ";
+                PreparedStatement updates = conn.prepareStatement(sql1);
+                updates.setString(1, txtName.getText());
+                updates.setString(2, txtDescription.getText());
+                updates.setString(3, txtPrice.getText());
+                updates.setString(4, txtQty.getText());
+                updates.setString(5, txtID.getText());
+                int upd = updates.executeUpdate();
+                if (upd > 0) {
+                    label.setText("Update thành công");
+                } else {
+                    label.setText("Update thất bại");
+                }
+            } catch (Exception e) {
+                label.setText("Lỗi kết nối cơ sở dữ liệu");
             }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        }else{
+            label.setText("Hãy điền thông tin đầy đủ");
         }
 
     }
     public void OnDelete(ActionEvent actionEvent){
-        try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/crud", "root", "");
-            String sql1 = "delete from product where id = ?";
-            PreparedStatement delete = conn.prepareStatement(sql1);
+        if(txtID.getText().isBlank() == false) {
+            try {
+                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/crud", "root", "");
+                String sql1 = "delete from product where id = ?";
+                PreparedStatement delete = conn.prepareStatement(sql1);
 
-            delete.setString(1,txtID.getText());
-            int delete1 = delete.executeUpdate();
-            if (delete1 > 0){
-                label.setText("Xoá thành công");
-            }else {
-                label.setText("Xoá thất bại");
+                delete.setString(1, txtID.getText());
+                int delete1 = delete.executeUpdate();
+                if (delete1 > 0) {
+                    label.setText("Xoá thành công");
+                } else {
+                    label.setText("Xoá thất bại");
+                }
+            } catch (SQLException e) {
+                label.setText("Lỗi kết nối cơ sở dữ liệu");
             }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        }else{
+            label.setText("Hãy điền thông tin đầy đủ");
         }
-
     }
 }
