@@ -1,0 +1,18 @@
+[
+  {
+    "Book": {
+      "price": "$100",
+      "author": "TCV",
+      "name": "Boy Friends",
+      "id": "1"
+    }
+  },
+  {
+    "Book": {
+      "price": "$99",
+      "author": "TCV",
+      "name": "Girl Friends",
+      "id": "2"
+    }
+  }
+]
