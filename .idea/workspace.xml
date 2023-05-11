@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="811f1a8e-3a52-43b2-9009-b7f8c68b3c02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c13/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/java/c13/TinhTienLuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/c13/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/java/c13/weather.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/music store/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/music store/detail.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JR1kR9vSd0MpaIRKAzr3fCApK3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="811f1a8e-3a52-43b2-9009-b7f8c68b3c02" name="Changes" comment="" />
+      <created>1672026223233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672026223233</updated>
+      <workItem from="1672026224325" duration="24000" />
+      <workItem from="1672026260070" duration="660000" />
+      <workItem from="1672027072480" duration="13000" />
+      <workItem from="1672027183855" duration="39000" />
+      <workItem from="1672027911717" duration="25000" />
+      <workItem from="1673230194061" duration="299000" />
+      <workItem from="1673231536409" duration="149000" />
+      <workItem from="1679907474570" duration="10000" />
+      <workItem from="1679907958494" duration="231000" />
+      <workItem from="1680829945539" duration="74000" />
+      <workItem from="1680830509790" duration="19000" />
+      <workItem from="1680830614847" duration="2899000" />
+      <workItem from="1681263074107" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
