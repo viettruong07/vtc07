@@ -1,14 +1,13 @@
-﻿public class Program
+﻿class Program
 {
-    static void Main(string[] args)
+    static void Evaluate(string arg)
     {
-        Circle c1 = new Circle(2.45, "Blue", 23);
-        Console.WriteLine("Circle before change: " + c1.ToString());
-
-        c1.PColor = "red";
-        c1.PWeight = 2.56;
-
-        Console.WriteLine("Circle after change: " + c1.ToString());
-        Console.ReadLine();
+        var val = arg ?? throw new ArgumentException("Invalid argument");
+        Console.WriteLine("Reached this point");
+    }
+    static void Main()
+    {
+        Evaluate("number");
+        Evaluate(null);
     }
 }
